@@ -20,13 +20,21 @@ body {
     padding: 16px;
 }
 
-img{
-    place-self: center;
-    width: 336px;
-    height: 152px;
+.images{
     display: block;
     margin-bottom: 16px;
+    place-self: center;
+}
+
+.images img{
+    width: 336px;
+    height: 152px;
     border-radius: 15px;
+}
+
+
+.content{
+    margin-top: 16px;
 }
 
 .design{
@@ -35,7 +43,6 @@ img{
     background-color: rgba(234, 129, 234, 0.702);
     padding: 0.3rem;
     border-radius: 15px;
-    margin-top: 16px;
 }
 
 h1{
