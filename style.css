@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    place-content: center;
+    place-self: center;
+    background-color: #FAFAFA;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+    width: 368px;
+    height: 394px;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+img{
+    place-self: center;
+    width: 336px;
+    height: 152px;
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+.design{
+    font-size: 14px;
+    color: purple;
+    background-color: rgba(234, 129, 234, 0.702);
+    padding: 0.3rem;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+h1{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+p{
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.line{
+    background-color: rgb(193, 193, 199);
+    height: 1px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+.name{
+    margin-top: 20px;
+}
